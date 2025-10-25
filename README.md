@@ -1,4 +1,5 @@
 Homology Modeling and Molecular Docking Project
+
 Overview
 This project focuses on predicting and analyzing the 3D structure of a target protein using homology modeling and exploring its interactions with potential ligands through molecular docking. These computational techniques are key in understanding protein structure–function relationships and drug design.
 
