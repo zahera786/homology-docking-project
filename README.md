@@ -1,11 +1,14 @@
 Homology Modeling and Molecular Docking Project
 
 Overview
+
 This project focuses on predicting and analyzing the 3D structure of a target protein using homology modeling and exploring its interactions with potential ligands through molecular docking. These computational techniques are key in understanding protein structure–function relationships and drug design.
 
 Tools Used
+
 1. SWISS-MODEL (Homology Modeling)
 SWISS-MODEL is an automated web-based server for protein structure prediction based on homology modeling. It builds a 3D structure of a target protein using a known protein as a template.
+
 The process involves:
 
 Identifying suitable template structures from the PDB database
@@ -37,6 +40,7 @@ AutoDock Vina provides accurate results and performs well for both rigid and fle
 Website: https://vina.scripps.edu
 
 Methodology
+
 Retrieve the protein sequence from UniProt.
 
 Use SWISS-MODEL to generate a 3D homology model.
@@ -50,12 +54,15 @@ Perform docking using AutoDock Vina.
 Analyze binding affinity and visualize protein–ligand interactions.
 
 Results
+
 The homology model generated through SWISS-MODEL provided a stable structure for docking. Docking results identified key residues responsible for interactions and predicted binding energies, supporting further biological or drug design studies.
 
 Conclusion
+
 Using SWISS-MODEL for 3D structure prediction and AutoDock Vina for docking enabled accurate analysis of protein–ligand interactions. These tools combined offer a powerful computational pipeline for molecular biology and bioinformatics research.
 
 References
+
 Waterhouse, A. et al. (2018). SWISS-MODEL: Homology modelling of protein structures and complexes. Nucleic Acids Research.
 
 Trott, O. & Olson, A. J. (2010). AutoDock Vina: Improving the speed and accuracy of docking with a new scoring function. Journal of Computational Chemistry.
